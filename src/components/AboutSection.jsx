@@ -2,7 +2,7 @@ import React from "react";
 import lofi from "../img/lofi.png";
 
 const AboutSection = () => {
-  return (
+  return(
     <div>
       <div className="description">
         <div className="title">
@@ -10,18 +10,20 @@ const AboutSection = () => {
             <h2>Gabriel Dias</h2>
           </div>
           <div className="hide">
-            <h2>Illustrator based</h2>
+            <h2>Illustrator based in <span>Brazil</span> come</h2>
           </div>
           <div className="hide">
-            <h2>in <span>Brazil</span>.</h2>
+            <h2>true.</h2>
           </div>
         </div>
-        <p>Contact me for commisions and illustrations.</p>
-        <button>Contact me</button>
-            <img src={lofi} alt="lofi"/>
+        <p>Contact Me for Comissions and Illustrations</p>
+        <button>Contact Me</button>
+      </div>
+      <div className="image">
+        <img src={lofi} alt="Hardwired Lofi"/>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default AboutSection;

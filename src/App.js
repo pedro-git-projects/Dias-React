@@ -1,5 +1,5 @@
 import React from "react";
-import AboutUs from "./pages/AboutUs";
+import AboutUs from "./pages/AboutUs.jsx";
 
 function App() {
   return (
