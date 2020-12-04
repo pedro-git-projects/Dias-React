@@ -16,28 +16,28 @@ const ServicesSection = () => {
                 <div className="cards">
                     <div className="card">
                         <div className="icon">
-                            <FontAwesomeIcon icon={faClock} />
+                            <FontAwesomeIcon icon={faClock} color="#23d997" />
                             <h3>Punctual</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="card">
                         <div className="icon">
-                            <FontAwesomeIcon icon={faComments} />
+                            <FontAwesomeIcon icon={faComments} color="#23d997" />
                             <h3>Taylor made</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="card">
                         <div className="icon">
-                            <FontAwesomeIcon icon={faPen} />
+                            <FontAwesomeIcon icon={faPen} color="#23d997" />
                             <h3>Digital</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
                     </div>
                     <div className="card">
                         <div className="icon">
-                            <FontAwesomeIcon icon={faMoneyBill} />
+                            <FontAwesomeIcon icon={faMoneyBill} color="#23d997" />
                             <h3>Affordable</h3>
                         </div>
                         <p>Lorem ipsum dolor sit amet.</p>
